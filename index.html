@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Now</h1>
+            <input type="text" id="search" placeholder="Enter City..." />
+            <button id="searchBtn">Search</button>
+        </header>
+
+        <div id="weather-info">
+            <h2 id="location">City Name</h2>
+            <p id="condition">Sunny</p>
+            <p id="temperature">Temperature: 25°C</p>
+            <p id="humidity">Humidity: 60%</p>
+            <p id="windspeed">Wind Speed: 5 km/h</p>
+        </div>
+
+        <button id="refreshBtn">Refresh Data</button>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

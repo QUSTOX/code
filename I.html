@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="I.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Game</h1>
+        <p id="question">What is 2 + 2?</p>
+        <button class="answer" onclick="checkAnswer(3)">3</button>
+        <button class="answer" onclick="checkAnswer(4)">4</button>
+        <button class="answer" onclick="checkAnswer(5)">5</button>
+        <button class="answer" onclick="checkAnswer(6)">6</button>
+        <p id="result"></p>
+        <button id="next-question" onclick="nextQuestion()">Next Question</button>
+    </div>
+
+<img src="F:\Hangman - Copy\assets\1.png" alt="">
+    <audio src="marimba-win-b-3-209679.mp3" id="correct_audio"></audio>
+    <audio src="error-10-206498.mp3" id="incorrect_audio"></audio>
+
+    <script src="I.js"></script>
+</body>
+</html>
